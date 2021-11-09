@@ -191,6 +191,3 @@ def fill_db():
 app.run(debug=True)
 
 
-
-
-# /about
