@@ -11,7 +11,6 @@ app = Flask(__name__)
 CORS(app) # allow anyone to call the server (**DANGER**)
 
 
-
 coupon_codes = [
     {
         "code": "qwerty",
@@ -189,5 +188,3 @@ def fill_db():
 # start the server
 # debug true will restart the server automatically
 app.run(debug=True)
-
-

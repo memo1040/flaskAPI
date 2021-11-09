@@ -21,7 +21,6 @@ class JSONEncoder(json.JSONEncoder):
             return json.JSONEncoder.default(obj)
 
 
-
 # method to parse/encode ojects into a json string
 def json_parse(data):
     return JSONEncoder().encode(data)
