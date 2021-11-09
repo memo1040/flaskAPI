@@ -1,0 +1,58 @@
+# hardcoded catalog
+
+mock_data = [
+    {
+    "_id": "45678905569876545678",
+    "price": 2.0,
+    "stock": 10,
+    "title": "Apple",
+    "image": "apple.jpeg",
+    "discount": 1,
+    "category": "Fruit",
+  },
+  {
+    "_id": "2345678987654345678",
+    "price": 1.5,
+    "stock": 18,
+    "title": "Banana",
+    "image": "banana.jpeg",
+    "discount": 0,
+    "category": "Fruit",
+  },
+  {
+    "_id": "3456789876543456789",
+    "price": 5.0,
+    "stock": 6,
+    "title": "Bread",
+    "image": "bread.jpeg",
+    "discount": 2,
+    "category": "Bread & Cereals",
+  },
+  {
+    "_id": "98765675676543456789",
+    "price": 4.0,
+    "stock": 23,
+    "title": "Corn Flakes",
+    "image": "cornflakes.jpeg",
+    "discount": 1,
+    "category": "Bread & Cereals",
+  },
+  {
+    "_id": "098765432345645687654",
+    "price": 3.5,
+    "stock": 8,
+    "title": "Milk",
+    "image": "milk.jpeg",
+    "discount": 0,
+    "category": "Dairy & Eggs",
+  },
+  {
+    "_id": "876785678987454550875",
+    "price": 5.0,
+    "stock": 15,
+    "title": "Eggs",
+    "image": "eggs.jpeg",
+    "discount": 2,
+    "category": "Dairy & Eggs",
+  },
+]
