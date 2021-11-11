@@ -140,6 +140,21 @@ def get_cheapest():
 
 
 ###########################################
+#############    Orders    ################
+###########################################
+
+@app.route("/api/order", methods=["POST"])
+def save_order():
+    order = request.get_json()
+    if order is None:
+        return abort(400, "Nothing to save")
+    
+    db.orders.insert_one(order)
+
+    return json_parse(order)
+
+
+###########################################
 ############# Coupon Codes ################
 ###########################################
 

@@ -11,3 +11,4 @@ python3 -m pip install <package_name>
 
 # install dependencies
 pip install -r requirements.txt
+This is the notes file
